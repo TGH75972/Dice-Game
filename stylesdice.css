@@ -1,0 +1,81 @@
+.bg{
+    background-color: black;
+}
+
+#dice{
+    display: block;
+    margin: auto;
+    margin-top: 140px;
+}
+
+#rollbutton{
+    background-color: aliceblue;
+    position: absolute;
+    top: 450px;
+    left: 615px;
+    padding: 20px;
+    width: 150px;
+    border-radius: 20px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid white;
+}
+
+#t1, #t2{
+    color: white;
+    font-size: 80px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    bottom: 500px;
+    left: 500px;
+}
+
+#t1{
+    background-color: white;
+    color: black;
+    padding-bottom: 10px;   
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#t2{
+    left: 700px;
+}
+
+#instructionPanel{
+    display: block;
+    position: absolute;
+    left: 50px;
+    top: 120px;
+    height: 500px;
+    width: 350px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+#t3{
+    position: absolute;
+    top: -20px;
+    left: 65px;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;   
+}
+
+#info{
+color: black;
+font-size: large;
+padding: 10px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+line-height: 40px;
+z-index: 0;
+}
+
+#dino{
+    position: absolute;
+    top: 430px;
+    left: 130px;
+    z-index: 2;
+}
