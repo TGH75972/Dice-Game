@@ -43,6 +43,10 @@
     left: 700px;
 }
 
+#bind1, #bind2{
+    display: flex;
+}
+
 #instructionPanel{
     display: block;
     position: absolute;
@@ -79,3 +83,58 @@ z-index: 0;
     left: 130px;
     z-index: 2;
 }
+
+#socials{
+    position: absolute;
+    height: 435px;
+    top: 140px;
+    left: 1100px;
+    width: 200px;
+    border-radius: 15px;
+    background-color: aliceblue;
+}
+
+#arrow{
+    display: inline-block;
+    color: white;
+    animation:  moveDown 1s linear infinite;
+}
+
+@keyframes moveDown{
+0%{
+    color: white;
+    transform: translateY(0px);
+}
+100%{
+    color: azure;
+    transform: translateY(10px);
+}
+}
+
+    #icon1{
+    position: relative;
+    left: 60px;
+    top: 20px;
+    transition: transform 0.3s ease;
+    }
+
+    #icon2{
+        position: relative;
+        left: -20px;
+        top: 225px;
+        transition: transform 0.3s ease;
+        }
+
+        #icon3{
+            position: relative;
+            left: 60px;
+            top: 40px;
+            transition: transform 0.3s ease;
+            }
+
+            #icon4{
+                position: relative;
+                left: -20px;
+                top: 250px;
+                transition: transform 0.3s ease;
+                }
