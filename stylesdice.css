@@ -12,13 +12,14 @@
     background-color: aliceblue;
     position: absolute;
     top: 450px;
-    left: 615px;
+    left: 610px;
     padding: 20px;
     width: 150px;
     border-radius: 20px;
     font-size: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border: 2px solid white;
+    cursor: pointer;
 }
 
 #t1, #t2{
@@ -106,7 +107,7 @@ z-index: 0;
     transform: translateY(0px);
 }
 100%{
-    color: azure;
+    color: greenyellow;
     transform: translateY(10px);
 }
 }
@@ -131,10 +132,14 @@ z-index: 0;
             top: 40px;
             transition: transform 0.3s ease;
             }
-
             #icon4{
                 position: relative;
                 left: -20px;
                 top: 250px;
                 transition: transform 0.3s ease;
                 }
+
+#icon1:hover, #icon2:hover, #icon3:hover, #icon4:hover
+{
+transform: scale(110%);
+}
